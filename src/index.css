@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+html {
+  /* Scales up all rem-based Tailwind fonts, cards, buttons & paddings by ~15% on desktop */
+  font-size: 17.5px;
+}
+
+@media (min-width: 1536px) {
+  html {
+    font-size: 18.5px;
+  }
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
