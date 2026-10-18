@@ -1,0 +1,24 @@
+# Dependencies & Build Output
+node_modules/
+dist/
+dist-ssr/
+
+# Environment Variables & Secrets (Protects .env.local!)
+.env
+.env.local
+.env.*.local
+
+# Firebase Service Account JSON keys (just in case one is saved locally)
+*firebase-adminsdk*.json
+service-account*.json
+
+# Python virtual environments & cache
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Editor & OS logs
+*.log
+.DS_Store
+.vscode/
